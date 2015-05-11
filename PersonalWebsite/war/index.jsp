@@ -15,6 +15,8 @@
 	<script src="js/angular/controllers/indexController.js"></script>
 	<script src="js/angular/controllers/contactmeController.js"></script>
 	
+	<!-- mobile friendly -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>David's Page</title>
 </head>
 

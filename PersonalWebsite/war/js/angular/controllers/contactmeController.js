@@ -1,7 +1,6 @@
 
 //this is a controller for the nav
 myApp.controller('contactmeController', function($scope) {
-	console.log("HELLO from contactmecontroller!");
 	
 	//checking the session scope, if something exists then we will click the header since its defaulted to home
 	var contactMeSessionVal = $("input[name='contact_me_session']").val();

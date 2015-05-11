@@ -7,7 +7,7 @@
   <h1 class="cover-heading">Contact Me</h1>
   <form class="ContactMeForm" action="contactme" method="POST">
   	<div class="form-group">
-  		<label class="ContactMeLabel">Email:<br> <input type="text" class="form-control ContactMeInput" name="Email" placeholder="Enter Email"/></label><br>
+  		<label class="ContactMeLabel">Email:<br> <input type="email" class="form-control ContactMeInput" name="Email" placeholder="Enter your Email" required/></label><br>
   	
   		<label class="ContactMeLabel">Subject:<br> <input type="text" class="form-control" name="Subject" placeholder="Enter Subject"/></label><br>
   	
