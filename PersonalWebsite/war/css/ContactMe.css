@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+
+.ContactMeLabel, .ContactMeInput {
+	float: left;
+}
+
+.ContactMeLabel {
+	clear: left;
+	display: block;
+	margin-top: 30px;
+	width: 100%;
+	font-size: large;
+}
+
+.ContactMeForm {
+	text-align: left;
+}
+
+#ContactMeSubmitButton{
+	margin-top:5px;
+}
