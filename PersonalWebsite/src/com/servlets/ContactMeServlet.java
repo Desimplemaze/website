@@ -45,6 +45,8 @@ public class ContactMeServlet extends HttpServlet {
 		String subject = request.getParameter("Subject");
 		String body = request.getParameter("Body");
 		
+		/****************************Start of Email*******************************************/
+		//uses Google App Engine mailing service (will only work if a gmail user is the sender)
 		Properties props = new Properties();
         Session session = Session.getDefaultInstance(props, null);
         
@@ -65,6 +67,12 @@ public class ContactMeServlet extends HttpServlet {
         } catch (MessagingException e) {
             e.printStackTrace();
         }
+        /****************************End of Email*******************************************/
+        //setting session object as reminder
+        HttpSession HttpSession = request.getSession();
+        HttpSession.setMaxInactiveInterval(3); // note that because im using routing the text will still be there until u refresh or close window
+        HttpSession.setAttribute("emailSent", "Your Email has been successfully sent!");
+        response.sendRedirect(request.getContextPath() + "/#/contact");
 		
 	}
 	

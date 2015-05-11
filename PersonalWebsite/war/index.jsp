@@ -11,8 +11,10 @@
 	<!-- modules -->
 	<script src="js/angular/app.js"></script>
 	
-	<!-- js file -->
-	<script src="js/common/indexjs.js"></script>
+	<!-- controller files -->
+	<script src="js/angular/controllers/indexController.js"></script>
+	<script src="js/angular/controllers/contactmeController.js"></script>
+	
 	<title>David's Page</title>
 </head>
 
@@ -23,7 +25,7 @@
 	
 	        <div class="cover-container">
 	
-	          <div class="masthead clearfix">
+	          <div class="masthead clearfix" ng-controller="indexController">
 	            <div class="inner">
 	              <h3 class="masthead-brand">Cover</h3>
 	              <nav>
@@ -32,7 +34,7 @@
 	                  <li><a href="#summary">Summary</a></li>
 	                  <li><a href="#projects">Projects</a></li>
 	                  <li><a href="#resume">Resume</a></li>
-	                  <li><a href="#contact">Contact</a></li>
+	                  <li id="contact"><a href="#contact">Contact</a></li>
 	                </ul>
 	              </nav>
 	            </div>
