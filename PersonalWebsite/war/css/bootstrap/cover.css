@@ -135,11 +135,12 @@ body {
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
+    /*position: fixed;*/
+    position: absolute; /*forces this to be on the very top of page*/
     top: 0;
   }
   .mastfoot {
-    position: fixed;
+    /*position: fixed;*/
     bottom: 0;
   }
   /* Start the vertical centering */
@@ -160,4 +161,12 @@ body {
   .cover-container {
     width: 700px;
   }
+}
+
+
+/*custom css for all pages*/
+
+/*forces the view to be always AT LEAST 110px below the page (30px below header)*/
+.templateInsert{
+	margin-top:110px;
 }

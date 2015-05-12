@@ -42,7 +42,7 @@
 	            </div>
 	          </div>
 	
-			  <div ng-view></div>
+			  <div class="templateInsert" ng-view></div>
 				
 				
 				
