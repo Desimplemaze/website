@@ -1,0 +1,12 @@
+.list-group-item-resume {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+}
+
+
+.text-float-left{
+    position: relative;
+    text-align: left;
+}

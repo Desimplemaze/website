@@ -29,11 +29,10 @@
 	
 	          <div class="masthead clearfix" ng-controller="indexController">
 	            <div class="inner">
-	              <h3 class="masthead-brand">Cover</h3>
+	              <!--h3 class="masthead-brand">Cover</h3-->
 	              <nav>
 	                <ul class="nav masthead-nav">
 	                  <li class="active"><a href="#">Home</a></li>
-	                  <li><a href="#summary">Summary</a></li>
 	                  <li><a href="#projects">Projects</a></li>
 	                  <li><a href="#resume">Resume</a></li>
 	                  <li id="contact"><a href="#contact">Contact</a></li>
@@ -43,10 +42,7 @@
 	          </div>
 	
 			  <div class="templateInsert" ng-view></div>
-				
-				
-				
-				
+			  
 		    </div>
 
       	  </div>

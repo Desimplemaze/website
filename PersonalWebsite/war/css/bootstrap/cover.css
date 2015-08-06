@@ -135,8 +135,9 @@ body {
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
-    /*position: fixed;*/
-    position: absolute; /*forces this to be on the very top of page*/
+    position: fixed;
+    z-index: 1;
+    /*position: absolute;*/ /*forces this to be on the very top of page*/
     top: 0;
   }
   .mastfoot {
@@ -159,7 +160,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 1000px;
   }
 }
 

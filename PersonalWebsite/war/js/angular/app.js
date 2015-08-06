@@ -19,6 +19,11 @@ myApp.config(function($routeProvider) {
         .when('/contact', {
             templateUrl : 'nav_pages/contact.jsp'
         })
+        
+        // route for the resume page
+        .when('/resume', {
+            templateUrl : 'nav_pages/resume.jsp'
+        })
 });
 
 //functions
