@@ -1,6 +1,6 @@
 
 //this is a controller for the nav
-myApp.controller('contactmeController', function($scope) {
+myApp.controller('ContactmeController', function($scope) {
 	
 	//checking the session scope, if something exists then we will click the header since its defaulted to home after u send the email
 	/**

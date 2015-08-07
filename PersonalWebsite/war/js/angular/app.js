@@ -24,6 +24,16 @@ myApp.config(function($routeProvider) {
         .when('/resume', {
             templateUrl : 'nav_pages/resume.jsp'
         })
+        
+        // route for the project page
+        .when('/projects', {
+            templateUrl : 'nav_pages/projects.jsp'
+        })
+        // route for the project-watson page
+        .when('/projects/watson', {
+            templateUrl : 'nav_pages/project-watson/watson.jsp'
+            	//cannot use controller : '<path to controller>' <-- find out why
+        })
 });
 
 //functions

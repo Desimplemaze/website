@@ -1,9 +1,9 @@
-<link href="css/ContactMe.css" rel="stylesheet">
+
 <link href="css/bootstrap/bootstrap-social.css" rel="stylesheet">
 <input type="hidden" name="contact_me_session" value="${sessionScope.emailSent}">
 
 
-<div class="inner cover" ng-controller="contactmeController">
+<div class="inner cover" ng-controller="ContactmeController">
   <h1 class="cover-heading">Contact Me</h1>
   <form class="ContactMeForm" action="contactme" method="POST">
   	<div class="form-group">
@@ -13,7 +13,7 @@
   	
   		<label class="ContactMeLabel">Body: <br><textarea class="form-control" rows="15" name="Body" placeholder="Enter Body"></textarea></label>
   	</div>
-  	<input type="submit" id="ContactMeSubmitButton" class="btn btn-lg btn-default" value="submit"/>
+  	<input type="submit" id="ContactMeSubmitButton" class="btn btn-lg btn-success" value="submit"/>
   	<p class="lead">${emailSent}</p>
   </form>
 

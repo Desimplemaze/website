@@ -1,4 +1,4 @@
-<link href="css/resume.css" rel="stylesheet">
+
 <div class="inner cover" ng-controller="contactmeController">
   	
   	<div class = "text-float-left">

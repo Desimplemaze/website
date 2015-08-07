@@ -171,3 +171,13 @@ body {
 .templateInsert{
 	margin-top:110px;
 }
+
+/*When i want the text to be pushed to the left in the div*/
+.text-float-left{
+    position: relative;
+    text-align: left;
+}
+
+.empty_space_lg{
+	margin-top: 100px;
+}

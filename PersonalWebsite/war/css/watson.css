@@ -1,0 +1,28 @@
+h1{
+	margin-bottom: 100px;
+}
+
+img{
+	width: 300px;
+	float: left;
+	margin-right: 30px;
+}
+
+.block{
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+
+/*this exists because without this, the buttons float to the right and unalign the header*/
+.button_holder_space{
+	width: 100%;
+	height: 100px;
+}
+
+.button_holder{
+	position: relative;
+	float: right;
+}
