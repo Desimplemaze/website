@@ -26,6 +26,7 @@ a:hover {
 
 html,
 body {
+  overflow-y: hidden;
   height: 100%;
   background-color: #333;
 }
@@ -164,7 +165,17 @@ body {
   }
 }
 
+@media (min-height: 600px) {
+	.limit {
+		height: 600px;
+	}
+}
 
+@media (min-height: 768px) {
+	.limit {
+		height: 700px;
+	}
+}
 /*custom css for all pages*/
 
 /*forces the view to be always AT LEAST 110px below the page (30px below header)*/
@@ -181,3 +192,14 @@ body {
 .empty_space_lg{
 	margin-top: 100px;
 }
+
+.limit{
+	width: 100%;
+    height: 700px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.limit::-webkit-scrollbar { width: 0 !important }
+
+

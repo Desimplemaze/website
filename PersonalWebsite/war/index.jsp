@@ -6,11 +6,11 @@
 	<link href="css/resume.css" rel="stylesheet">
 	<link href="css/ContactMe.css" rel="stylesheet">
 	<link href="css/projects.css" rel="stylesheet">
-	<!-- load angular and others via CDN -->
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	
+
+	<!-- load angular and others -->
+	<script src="js/vendors/angular.min.js"></script>
+	<script src="js/vendors/angular-route.js"></script>
+	<script src="js/vendors/jquery.min.js"></script>
 	<!-- modules -->
 	<script src="js/angular/app.js"></script>
 	
@@ -18,6 +18,8 @@
 	<script src="js/angular/controllers/IndexController.js"></script>
 	<script src="js/angular/controllers/ContactmeController.js"></script>
 	<script src="js/angular/controllers/WatsonController.js"></script>
+	<script src="js/angular/controllers/ResumeController.js"></script>
+	<script src="js/angular/controllers/ProjectsController.js"></script>
 	<!-- mobile friendly -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>David's Page</title>
@@ -35,9 +37,9 @@
 	              <!--h3 class="masthead-brand">Cover</h3-->
 	              <nav>
 	                <ul class="nav masthead-nav">
-	                  <li class="active"><a href="#">Home</a></li>
-	                  <li><a href="#projects">Projects</a></li>
-	                  <li><a href="#resume">Resume</a></li>
+	                  <li id="home" class="active"><a href="#">Home</a></li>
+	                  <li id="projects"><a href="#projects">Projects</a></li>
+	                  <li id="resume"><a href="#resume">Resume</a></li>
 	                  <li id="contact"><a href="#contact">Contact</a></li>
 	                </ul>
 	              </nav>

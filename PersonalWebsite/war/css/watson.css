@@ -2,10 +2,12 @@ h1{
 	margin-bottom: 100px;
 }
 
-img{
+.block img{
 	width: 300px;
+	height: 217px;
 	float: left;
 	margin-right: 30px;
+	cursor: pointer;
 }
 
 .block{
@@ -25,4 +27,9 @@ img{
 .button_holder{
 	position: relative;
 	float: right;
+}
+
+/*light box stuff*/
+.lightbox{
+	cursor: pointer;
 }

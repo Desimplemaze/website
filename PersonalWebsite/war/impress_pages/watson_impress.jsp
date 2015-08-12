@@ -7,9 +7,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>Watson-Demo | ImpressJS</title>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
-
-    <link href="../css/other/impress.css" rel="stylesheet" />
-
+	<link href="../css/other/watson-impress.css" rel="stylesheet" />
 </head>
 
 <body class="impress-not-supported">
@@ -51,11 +49,6 @@
 		<p>Here, we can select a question for Watson to answer or we can type it in our search bar in the middle of the screen</p>
     </div>
 
-    <div id="login" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-        <img src="../img/projects/watson/3.png"/>
-		<p>Since we need an account, we will have to log in. You can use facebook or gmail to do so.</p>
-    </div>
-
     <div id="watson_response" class="step" data-x="6700" data-y="-3000" data-scale="5">
         <img src="../img/projects/watson/5.png"/>
 		<p>Now, Watson can give you a response it thinks is best suited for your particular question</p>
@@ -63,7 +56,7 @@
 
     <div id="watson_confident_answer" class="step" data-x="4300" data-y="5000" data-rotate="20" data-scale="4">
         <img src="../img/projects/watson/6.png"/>
-		<p>Watson, by default, will give you its most confident answer, but if you don't think the answer is answering you question correctly, you can choose from other answers Watson thought might be relevant. If your desired answer is in one of those suggestions, please select it. Watson will learn from this!</p>
+		<p>Watson, by default, will give you its most confident answer, but if you don't think the answer is answering you question correctly, you can choose from other answers Watson thought might be relevant.</p>
     </div>
 
     <div id="session_summary" class="step" data-x="8000" data-y="4000" data-scale="2">

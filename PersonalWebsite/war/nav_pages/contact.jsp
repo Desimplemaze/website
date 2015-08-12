@@ -7,11 +7,11 @@
   <h1 class="cover-heading">Contact Me</h1>
   <form class="ContactMeForm" action="contactme" method="POST">
   	<div class="form-group">
-  		<label class="ContactMeLabel">Email:<br> <input type="email" class="form-control ContactMeInput" name="Email" placeholder="Enter your Email" required/></label><br>
+  		<label class="ContactMeLabel">Email:<br> <input type="email" class="form-control ContactMeInput" name="Email" placeholder="What's your email?" required/></label><br>
   	
-  		<label class="ContactMeLabel">Subject:<br> <input type="text" class="form-control" name="Subject" placeholder="Enter Subject"/></label><br>
+  		<label class="ContactMeLabel">Subject:<br> <input type="text" class="form-control" name="Subject" placeholder="Enter your subject"/></label><br>
   	
-  		<label class="ContactMeLabel">Body: <br><textarea class="form-control" rows="15" name="Body" placeholder="Enter Body"></textarea></label>
+  		<label class="ContactMeLabel">Body: <br><textarea class="form-control" rows="15" name="Body" placeholder="What do you want to say?"></textarea></label>
   	</div>
   	<input type="submit" id="ContactMeSubmitButton" class="btn btn-lg btn-success" value="submit"/>
   	<p class="lead">${emailSent}</p>

@@ -13,6 +13,7 @@ myApp.config(function($routeProvider) {
         // route for the home page
         .when('/', {
             templateUrl : 'nav_pages/home.jsp'
+            	// having the controllers being called here would work if say we made the controllers on this page.
         })
 
         // route for the about page

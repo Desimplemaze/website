@@ -35,9 +35,7 @@ html{
 }
 
 /* STEP SPECIFIC STYLES */
-#start p {
-	font-size: 18px;
-}
+
 
 #start h1, #start p {
 	text-align: center;
@@ -51,18 +49,9 @@ html{
     text-align: left;
 }
 
-#landing_page2 p{
-	font-size: 16px;
-}
-
 #login {
     width: 500px;
 }
-
-#login p{
-	font-size: 16px;
-}
-
 
 /* watson_response */
 
@@ -70,20 +59,13 @@ html{
     width: 600px;
 }
 
-#watson_response p{
-    font-size: 16px;
-}
-
 #watson_confident_answer {
     width: 700px;
 }
 
-#watson_confident_answer p {
-    font-size: 16px;
-}
 
-#session_summary p{
-	font-size: 16px;
+#session_summary p, #watson_confident_answer p, #watson_response p, #login p, #landing_page2 p, #start p, #landing_page p{
+	font-size: 24px;
 }
 
 /* IMPRESS NOT SUPPORTED STYLES */
@@ -115,5 +97,11 @@ html{
 
 .impress-not-supported .fallback-message {
     display: block;
+}
+
+
+img {
+	width: 820px;
+	height: 600px;
 }
 

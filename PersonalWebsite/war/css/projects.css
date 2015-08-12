@@ -1,3 +1,7 @@
 img{
 	width: 400px;
 }
+
+img:hover{
+	opacity: 0.8;
+}
