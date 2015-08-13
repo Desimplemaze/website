@@ -21,8 +21,14 @@
 	<script src="js/angular/controllers/ResumeController.js"></script>
 	<script src="js/angular/controllers/ProjectsController.js"></script>
 	<script src="js/angular/controllers/HomeController.js"></script>
+	
+	<!-- Fonts -->
+	
+	<link href="http://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet" type="text/css">
 	<!-- mobile friendly -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
 	<title>David's Page</title>
 </head>
 

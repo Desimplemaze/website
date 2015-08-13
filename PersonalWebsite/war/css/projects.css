@@ -43,8 +43,11 @@ img:hover{
     z-index: 51;
 }
 
+#project_overview{
+	display: inline-block;
+}
 
-/*this exists because without this, the buttons float to the right and unalign the header*/
+/*this exists because without this, the buttons float to the right and unalign the header, it is here because all projects will use this, GLOBAL to projects*/
 .button_holder_space{
 	width: 100%;
 	height: 100px;
