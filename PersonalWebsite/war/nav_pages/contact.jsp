@@ -21,8 +21,8 @@
 
 <div class="mastfoot">
   <div class="inner">
-  	<a href="https://www.linkedin.com/pub/chon-kin-sam/50/644/906" class="btn btn-social-icon btn-linkedin"><img src="img/linkedin/linkedin.png"></a>
-	<a href="https://www.facebook.com/TransientWinds" class="btn btn-social-icon btn-facebook"><img src="img/facebook/facebook.png"></a>
-	<a href="https://github.com/Desimplemaze" class="btn btn-social-icon btn-github"><img src="img/GitHub/GitHub.png"></a>
+  	<a href="https://www.linkedin.com/pub/chon-kin-sam/50/644/906"><img src="img/linkedin/linkedin.png"></a>
+	<a href="https://www.facebook.com/TransientWinds"><img src="img/facebook/facebook.png"></a>
+	<a href="https://github.com/Desimplemaze"><img src="img/GitHub/GitHub.png"></a>
   </div>
 </div>
