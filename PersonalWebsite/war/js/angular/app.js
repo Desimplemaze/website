@@ -32,8 +32,10 @@ myApp.config(function($routeProvider) {
         })
         // route for the project-watson page
         .when('/projects/watson', {
-            templateUrl : 'nav_pages/project-watson/watson.jsp'
-            	//cannot use controller : '<path to controller>' <-- find out why
+            templateUrl : 'nav_pages/projects/watson.jsp'
+        })
+        .when('/projects/early-projects', {
+            templateUrl : 'nav_pages/projects/early-projects.jsp'
         })
 });
 

@@ -20,12 +20,16 @@
 	<script src="js/angular/controllers/WatsonController.js"></script>
 	<script src="js/angular/controllers/ResumeController.js"></script>
 	<script src="js/angular/controllers/ProjectsController.js"></script>
+	<script src="js/angular/controllers/HomeController.js"></script>
 	<!-- mobile friendly -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>David's Page</title>
 </head>
 
 	<body>
+	<div class="backdrop"></div>
+	<div class="box"></div>
+	
 	    <div class="site-wrapper">
 	
 	      <div class="site-wrapper-inner">
