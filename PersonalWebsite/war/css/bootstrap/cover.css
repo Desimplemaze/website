@@ -147,7 +147,9 @@ body {
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
-    vertical-align: middle;
+    /*vertical-align: middle;*/
+    position: relative;
+    top: 125px;
   }
   /* Handle the widths */
   .masthead,
@@ -165,23 +167,13 @@ body {
   }
 }
 
-@media (min-height: 600px) {
-	.limit {
-		height: 600px;
-	}
-}
-
-@media (min-height: 768px) {
-	.limit {
-		height: 700px;
-	}
-}
 /*custom css for all pages*/
 
 /*forces the view to be always AT LEAST 110px below the page (30px below header)*/
+/*
 .templateInsert{
-	margin-top:110px;
-}
+	margin-top: -110px;
+}*/
 
 /*When i want the text to be pushed to the left in the div*/
 .text-float-left{
@@ -196,7 +188,7 @@ body {
 
 
 .limit{
-    height: 600px;
+    height: 500px;
     margin-right: -17px;
     overflow-y: scroll;
     overflow-x: hidden;

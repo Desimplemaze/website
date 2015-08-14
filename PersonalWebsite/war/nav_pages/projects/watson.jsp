@@ -11,7 +11,7 @@
 			<h1 class="cover-heading">Watson-Demo</h1>
 			<div class="text-float-left">
 				<h2>About: </h2>
-				<h4>Watson is a cognitive technology that processes information more like a human than a computer; by understanding natural language, generating hypothesis based on evidence, and learning as it goes. And learn it does. Watson “gets smarter” in three ways: by being taught by its users (via dynamic learning), by learning from prior interactions (via hypotheses generation), and by being presented with new information (via language).</h4>
+				<h4>Watson is a cognitive technology that processes information more like a human than a computer; by understanding natural language, generating hypothesis based on evidence, and learning as it goes. And learn it does. Watson "gets smarter" in three ways: by being taught by its users (via dynamic learning), by learning from prior interactions (via hypotheses generation), and by being presented with new information (via language).</h4>
 				<h4>To highlight some of Watson's features, we've trained Watson to be a financial advisor</h4>
 				<br>
 				<p><b>Technologies used: </b> HTML/CSS, Java, jQuery, underscoreJS, requireJS, Javascript</p>

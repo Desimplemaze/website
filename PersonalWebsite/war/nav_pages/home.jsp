@@ -1,6 +1,6 @@
 <link href="css/home.css" rel="stylesheet">
 <div class="inner cover" ng-controller="HomeController">
-	<h1 class="cover-heading homeh1">Facts about Me</h1>
+	<h1 class="cover-heading homeh1">Facts About Me</h1>
 	<div class="empty_space_lg"></div>
 	<div class="profile_div">
 		<img src="../img/home/me.jpg"/>
@@ -34,7 +34,7 @@
 			</tr>
 			<tr>
 				<td><label class="stats_labels"> Hobbies: </label></td>
-				<td>Tennis, Gaming, Developing</td>
+				<td>Tennis, Gaming, Software Developing</td>
 			</tr>
 		</table>
 	</div>
