@@ -25,13 +25,13 @@
         <p>Use a spacebar or arrow keys to navigate</p>
     </div>
 
-	<div class="step" data-x="-1000" data-y="-2500" data-rotate="60">
+	<div class="step" data-x="0" data-y="-2500" data-rotate="-60">
         <h2>About: </h2>
 		<p>Watson is a cognitive technology that processes information more like a human than a computer; by understanding natural language, generating hypothesis based on evidence, and learning as it goes. And learn it does.</p>
 
     </div>
 
-    <div class="step" data-x="-1000" data-y="-3500" data-rotate="120">
+    <div class="step" data-x="1000" data-y="-3500" data-rotate="-120">
         <p>Watson "gets smarter" in three ways: by being taught by its users (via dynamic learning), by learning from prior interactions (via hypotheses generation), and by being presented with new information (via language).</p>
     </div>
     
@@ -44,7 +44,7 @@
 		<p>This is the landing page.</p>
     </div>
 
-    <div id="landing_page2" class="step" data-x="2825" data-y="2325" data-z="-2000" data-rotate="300" data-scale="1">
+    <div id="landing_page2" class="step" data-x="4325" data-y="2325" data-z="-2000" data-rotate="300" data-scale="1">
         <img src="../img/projects/watson/2.png"/>
 		<p>Here, we can select a question for Watson to answer or we can type it in our search bar in the middle of the screen</p>
     </div>
