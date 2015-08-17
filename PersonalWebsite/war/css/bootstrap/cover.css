@@ -189,11 +189,11 @@ body {
 
 .limit{
     height: 500px;
-    margin-right: -17px;
+    margin-right: -100px;
     overflow-y: scroll;
     overflow-x: hidden;
 }
-/*The tric kto hide the scroll bar is, put a parent div on top of the div that has the scrollbar, move the inner div to the right, -17px, 
+/*The trick to hide the scroll bar is, put a parent div on top of the div that has the scrollbar, move the inner div to the right, -17px, 
 and set parent div to have overflow: hidden, the scrollbar is there, user just cant see it*/
 .hide_scrollbar{
 	overflow: hidden;
