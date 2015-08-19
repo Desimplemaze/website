@@ -3,9 +3,9 @@
 	<!-- SCROLLS -->
 	<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet"><!-- bootstrap core css -->
 	<link href="css/bootstrap/cover.css" rel="stylesheet"><!-- custom css for template -->
-	<link href="css/resume.css" rel="stylesheet">
-	<link href="css/ContactMe.css" rel="stylesheet">
-	<link href="css/projects.css" rel="stylesheet">
+	
+
+	
 
 	<!-- load angular and others -->
 	<script src="js/vendors/angular.min.js"></script>

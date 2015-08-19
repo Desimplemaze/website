@@ -1,3 +1,4 @@
+<link href="css/projects.css" rel="stylesheet">
 <div class="inner cover" ng-controller="ProjectsController">
 	<div class="hide_scrollbar">
 		<div class="limit">

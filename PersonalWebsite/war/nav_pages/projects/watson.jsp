@@ -3,7 +3,7 @@
 	<div class="button_holder_space">
 		<div class="button_holder">	
 			<a class="back_link" href="#projects">Back</a> <span> | </span>
-			<button type="button" class="btn btn-success" id="view_watson_impress">Tired of Only Seeing a static page?</button>
+			<button type="button" class="btn btn-success" id="view_watson_impress">Tired of only seeing a static page?</button>
 		</div>
 	</div>
 	<div class="hide_scrollbar">

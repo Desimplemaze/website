@@ -5,3 +5,18 @@
     margin-bottom: -1px;
 }
 
+
+#chart {
+  text-align: left;
+  border-left: 1px solid white;
+  margin: 32px auto;
+  background-color: #E6E6E6;
+  float: right;
+}
+
+
+
+/*more details to the global div for resume only*/
+.text-float-left {
+    width: 500px;
+}

@@ -1,12 +1,12 @@
 <link href="css/home.css" rel="stylesheet">
 <div class="inner cover" ng-controller="HomeController">
-	<h1 class="cover-heading homeh1">Facts About Me</h1>
+	<h1 class="cover-heading">Facts About Me</h1>
 	<div class="empty_space_lg"></div>
 	<div class="profile_div">
 		<img src="../img/home/me.jpg"/>
 	</div>
 	<div class="about_me">
-		<h3>I am a Front End Web Developer</h3>
+		<h3>Front End Web Developer</h3>
 		<br>
 		<p>I enjoy using new technologies to make websites as seamless and intuitive as it can be for the end user.</p>
 		<br>
@@ -26,7 +26,7 @@
 			</tr>
 			<tr>
 				<td><label class="stats_labels"> Email: </label></td>
-				<td>chsam277@gmail.com</td>
+				<td>csam@essextec.com</td>
 			</tr>
 			<tr>
 				<td><label class="stats_labels"> Majors: </label></td>
