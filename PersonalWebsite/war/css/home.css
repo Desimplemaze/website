@@ -47,7 +47,7 @@ img:hover{
     border-collapse: separate;
 }
 
-h1{
+.homeh1{
 	width: 100%;
 	font: 400 100px/1.3 'Merienda One', Helvetica, sans-serif;
 	text-shadow: 4px 4px 0px rgba(0,0,0,0.1);

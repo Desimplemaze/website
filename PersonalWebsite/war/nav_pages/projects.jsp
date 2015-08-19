@@ -1,4 +1,3 @@
-<link href="css/projects.css" rel="stylesheet">
 <div class="inner cover" ng-controller="ProjectsController">
 	<div class="hide_scrollbar">
 		<div class="limit">
@@ -6,8 +5,8 @@
 			<table id="project_overview">
 				<tbody>
 					<tr>
-						<td><h1>Watson-Demo</h1></td>
-						<td style="padding:0 50px 0 50px;"><h1>Early Projects</h1></td>
+						<td><h1 class="projectsh1">Watson-Demo</h1></td>
+						<td style="padding:0 50px 0 50px;"><h1 class="projectsh1">Early Projects</h1></td>
 					</tr>
 					<tr>
 						<td><a href="#projects/watson"><img src="img/projects/watson/1.png"/></a></td>

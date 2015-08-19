@@ -1,6 +1,6 @@
 <link href="css/home.css" rel="stylesheet">
 <div class="inner cover" ng-controller="HomeController">
-	<h1 class="cover-heading">Facts About Me</h1>
+	<h1 class="cover-heading homeh1">Facts About Me</h1>
 	<div class="empty_space_lg"></div>
 	<div class="profile_div">
 		<img src="../img/home/me.jpg"/>

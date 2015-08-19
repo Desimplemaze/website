@@ -1,7 +1,7 @@
-<link href="css/ContactMe.css" rel="stylesheet">
+
 <input type="hidden" name="contact_me_session" value="${sessionScope.emailSent}">
 <div class="inner cover" ng-controller="ContactmeController">
-  <h1 class="cover-heading">Contact Me</h1>
+  <h1 class="cover-heading contacth1">Contact Me</h1>
   <form class="ContactMeForm" action="contactme" method="POST">
   	<div class="form-group">
   		<label class="ContactMeLabel">Email:<br> <input type="email" class="form-control ContactMeInput" name="Email" placeholder="What's your email?" required/></label><br>

@@ -1,4 +1,4 @@
-<link href="css/watson.css" rel="stylesheet">
+
 <div class="inner cover" ng-controller="WatsonController">
 	<div class="button_holder_space">
 		<div class="button_holder">	
@@ -8,7 +8,7 @@
 	</div>
 	<div class="hide_scrollbar">
 		<div class="limit">
-			<h1 class="cover-heading">Watson-Demo</h1>
+			<h1 class="cover-heading watsonh1">Watson-Demo</h1>
 			<div class="text-float-left">
 				<h2>About: </h2>
 				<h4>Watson is a cognitive technology that processes information more like a human than a computer; by understanding natural language, generating hypothesis based on evidence, and learning as it goes. And learn it does. Watson "gets smarter" in three ways: by being taught by its users (via dynamic learning), by learning from prior interactions (via hypotheses generation), and by being presented with new information (via language).</h4>

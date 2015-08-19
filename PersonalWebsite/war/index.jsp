@@ -4,9 +4,12 @@
 	<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet"><!-- bootstrap core css -->
 	<link href="css/bootstrap/cover.css" rel="stylesheet"><!-- custom css for template -->
 	
-
+	<!-- CSS, when placed in respective templates, there is a flick and then css will be applied. -->
+	<link href="css/ContactMe.css" rel="stylesheet">
+	<link href="css/projects.css" rel="stylesheet">
+	<link href="css/watson.css" rel="stylesheet">
+	<link href="css/early-projects.css" rel="stylesheet">
 	
-
 	<!-- load angular and others -->
 	<script src="js/vendors/angular.min.js"></script>
 	<script src="js/vendors/angular-route.js"></script>
