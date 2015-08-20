@@ -15,6 +15,8 @@ myApp.controller('WatsonController', function($scope) {
 		$(".backdrop").css("display", "block");
 		$(".box").css("display", "block");
 		$(".box").css("content", url);
+		$(".box").css("width", "900px");
+		$(".box").css("height", "651px");
 		$(".box").css("margin-left", "-450px");
 		$(".box").css("margin-top", "-324px");
 	});

@@ -50,7 +50,7 @@
 	              <!--h3 class="masthead-brand">Cover</h3-->
 	              <nav>
 	                <ul class="nav masthead-nav">
-	                  <li id="home" class="active"><a href="#">Home</a></li>
+	                  <li id="home"><a href="#">Home</a></li>
 	                  <li id="projects"><a href="#projects">Projects</a></li>
 	                  <li id="resume"><a href="#resume">Resume</a></li>
 	                  <li id="contact"><a href="#contact">Contact</a></li>

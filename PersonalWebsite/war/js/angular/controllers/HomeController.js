@@ -1,4 +1,9 @@
 myApp.controller('HomeController', function($scope) {
+	
+	removeClassActive();
+	$( "#home" ).addClass("active");
+
+	
 	$('.profile_div img').click(function(event){
 		event.preventDefault();
 		console.log($(this).attr('src'));
@@ -15,8 +20,5 @@ myApp.controller('HomeController', function($scope) {
 	$(".backdrop, .box").click(function(){
 		$(".backdrop").css("display", "none");
 		$(".box").css("display", "none");
-		$(".box").css("width", "900px");
-		$(".box").css("margin-left", "-450px");
-		$(".box").css("margin-top", "-407px");
 	});
 });
