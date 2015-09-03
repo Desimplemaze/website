@@ -6,15 +6,19 @@ myApp.controller('HomeController', function($scope) {
 	
 	$('.profile_div img').click(function(event){
 		event.preventDefault();
-		console.log($(this).attr('src'));
-		var url = "url("+ $(this).attr('src') +")";
+		var url =$(this).attr('src');
 		
 		$(".backdrop").css("display", "block");
 		$(".box").css("display", "block");
-		$(".box").css("content", url);
-		$(".box").css("margin-left", "-250px");
-		$(".box").css("margin-top", "-343px");
-		$(".box").css("width", "500px");
+		
+		$("#light-box-img").attr("src", url);
+		$("#light-box-img").css("width", "500px");
+		
+		$(".box").css({
+				"margin-left" : "-250px",
+				"margin-top" : "-343px",
+				"width" : "500px"
+		});
 	});
 	
 	$(".backdrop, .box").click(function(){

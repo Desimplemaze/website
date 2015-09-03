@@ -1,4 +1,3 @@
-
 <input type="hidden" name="contact_me_session" value="${sessionScope.emailSent}">
 <div class="inner cover" ng-controller="ContactmeController">
   <h1 class="cover-heading contacth1">Contact Me</h1>

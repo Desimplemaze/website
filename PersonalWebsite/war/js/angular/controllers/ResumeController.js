@@ -2,7 +2,9 @@ myApp.controller('ResumeController', function($scope) {
 	// always click on load
 	removeClassActive();
 	$("#resume").addClass("active");
-
+	
+	$('.limit').slimscroll();
+	
 	//**********************************************************Start of chart js***************************
 	(function($) {
 	  
@@ -180,7 +182,7 @@ myApp.controller('ResumeController', function($scope) {
 		//chart stuff
 	$(function(){
 		  $('#chart').radarChart({
-		    size: [500, 400],
+		    size: [495, 400],
 		    step: 1,
 		    title: "My Skills",
 		    values: {

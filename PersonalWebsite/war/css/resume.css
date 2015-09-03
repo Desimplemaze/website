@@ -8,15 +8,14 @@
 
 #chart {
   text-align: left;
-  border-left: 1px solid white;
-  margin: 32px auto;
+  margin: 32px;
   background-color: #E6E6E6;
   float: right;
 }
 
 
 
-/*more details to the global div for resume only*/
-.text-float-left {
+/*like an add on to resume only*/
+.limit-width-500 {
     width: 500px;
 }

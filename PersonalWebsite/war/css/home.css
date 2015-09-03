@@ -41,7 +41,9 @@ img:hover{
     border-radius: 10px;
     display: block;
 }
-
+.stats_data{
+	text-align: left;
+}
 .stats table {
 	border-spacing: 17px;
     border-collapse: separate;

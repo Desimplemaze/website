@@ -3,4 +3,6 @@ myApp.controller('ProjectsController', function($scope) {
 	removeClassActive();
 	$("#projects").addClass("active");
 	
+	$('.limit').slimscroll();
+	
 });

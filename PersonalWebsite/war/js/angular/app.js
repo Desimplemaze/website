@@ -12,7 +12,7 @@ myApp.config(function($routeProvider) {
 
         // route for the home page
         .when('/', {
-            templateUrl : 'nav_pages/home.jsp'
+            templateUrl : 'nav_pages/home.html'
             	// having the controllers being called here would work if say we made the controllers on this page.
         })
 
@@ -23,19 +23,19 @@ myApp.config(function($routeProvider) {
         
         // route for the resume page
         .when('/resume', {
-            templateUrl : 'nav_pages/resume.jsp'
+            templateUrl : 'nav_pages/resume.html'
         })
         
         // route for the project page
         .when('/projects', {
-            templateUrl : 'nav_pages/projects.jsp'
+            templateUrl : 'nav_pages/projects.html'
         })
         // route for the project-watson page
         .when('/projects/watson', {
-            templateUrl : 'nav_pages/projects/watson.jsp'
+            templateUrl : 'nav_pages/projects/watson.html'
         })
         .when('/projects/early-projects', {
-            templateUrl : 'nav_pages/projects/early-projects.jsp'
+            templateUrl : 'nav_pages/projects/early-projects.html'
         })
 });
 

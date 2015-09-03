@@ -69,10 +69,10 @@ public class ContactMeServlet extends HttpServlet {
         }
         /****************************End of Email*******************************************/
         //setting session object as reminder
-        HttpSession HttpSession = request.getSession();
+        HttpSession httpSession = request.getSession();
         //HttpSession.setMaxInactiveInterval(3); // note that because im using routing the text will still be there until u refresh or close window
         // in web.xml the session expires in 1 minute (can only be set to minutes)
-        HttpSession.setAttribute("emailSent", "Your Email has been sent!");
+        httpSession.setAttribute("emailSent", "Your Email has been sent!");
         response.sendRedirect(request.getContextPath() + "/#/contact");
 		
 	}

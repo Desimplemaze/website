@@ -1,5 +1,8 @@
+<!DOCTYPE html>
 <html ng-app="myApp">
 <head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
 	<!-- SCROLLS -->
 	<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet"><!-- bootstrap core css -->
 	<link href="css/bootstrap/cover.css" rel="stylesheet"><!-- custom css for template -->
@@ -9,6 +12,9 @@
 	<link href="css/projects.css" rel="stylesheet">
 	<link href="css/watson.css" rel="stylesheet">
 	<link href="css/early-projects.css" rel="stylesheet">
+	<link href="css/resume.css" rel="stylesheet">
+	<link href="css/home.css" rel="stylesheet">
+	
 	
 	<!-- load angular and others -->
 	<script src="js/vendors/angular.min.js"></script>
@@ -25,6 +31,10 @@
 	<script src="js/angular/controllers/ProjectsController.js"></script>
 	<script src="js/angular/controllers/HomeController.js"></script>
 	
+	<!-- other js files -->
+	<script src="js/vendors/jquery.slimscroll.js"></script>
+	
+	
 	<!-- Fonts -->
 	
 	<link href="http://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet" type="text/css">
@@ -37,7 +47,10 @@
 
 	<body>
 	<div class="backdrop"></div>
-	<div class="box"></div>
+	<div class="box">
+		<img id="light-box-img" src="#">
+		<p>Click anywhere to close</p>
+	</div>
 	
 	    <div class="site-wrapper">
 	
